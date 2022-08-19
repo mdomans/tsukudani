@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "tsukudani"
 version = "0.1.0"
-description = "Simmering kombu and gevent together"
+description = "Simmering kombu and gevent together - exploration into if slimmer smaller custom gevent worker for celery can be written de novo"
 authors = ["mdomans <mdomans@gmail.com>"]
-license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.10"
+kombu = "^5.2.4"
 
 [tool.poetry.dev-dependencies]
 
